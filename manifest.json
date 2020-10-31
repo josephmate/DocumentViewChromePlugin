@@ -2,5 +2,22 @@
     "name": "Document View Chrome Plugin",
     "version": "1.0",
     "description": "Hides a webpage's side bars, top bars, and whatever else bars so you have more screen space to see your document.",
-    "manifest_version": 2
+    "manifest_version": 2,
+
+    "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+          "16": "images/document_view_16.png",
+          "32": "images/document_view_32.png",
+          "48": "images/document_view_48.png",
+          "128": "images/document_view_128.png"
+        }
+    },
+
+    "icons": {
+        "16": "images/document_view_16.png",
+        "32": "images/document_view_32.png",
+        "48": "images/document_view_48.png",
+        "128": "images/document_view_128.png"
+    }
 }
