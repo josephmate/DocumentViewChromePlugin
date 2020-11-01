@@ -1,0 +1,18 @@
+let hideBars = document.getElementById('hideBars');
+
+hideBars.onclick = function(element) {
+    chrome.tabs.query(
+        {
+            active: true,
+            currentWindow: true
+        },
+        function(tabs) {
+            chrome.tabs.executeScript(
+                tabs[0].id,
+                {
+                    code: 'var div = document.createElement("div"); div.innerHTML = "Hello World!"; document.body.appendChild(div);'
+                }
+            );
+        }
+    );
+};
