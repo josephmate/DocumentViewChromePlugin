@@ -10,7 +10,7 @@ hideBars.onclick = function(element) {
             chrome.tabs.executeScript(
                 tabs[0].id,
                 {
-                    code: 'var div = document.createElement("div"); div.innerHTML = "Hello World!"; document.body.appendChild(div);'
+                    file: 'hide.js'
                 }
             );
         }
