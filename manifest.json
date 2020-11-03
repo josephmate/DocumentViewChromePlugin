@@ -3,6 +3,8 @@
     "version": "1.0",
     "description": "Hides a webpage's side bars, top bars, and whatever else bars so you have more screen space to see your document.",
     "manifest_version": 2,
+    "update_url": "'https://raw.githubusercontent.com/josephmate/DocumentViewChromePlugin/release/update.xml",
+
 
     "permissions": [
         "declarativeContent",
