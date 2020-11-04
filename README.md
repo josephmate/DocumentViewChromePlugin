@@ -3,8 +3,7 @@ Hides a webpage's side bars, top bars, and whatever else bars so you have more s
 
 # Example
 ![Confluence Before Hiding](/screenshots/Confluence_1000.0.0-d45d49b52de3_before.png "Confluence Before Hiding")
-![First Step](/screenshots/Confluence_1000.0.0-d45d49b52de3_step1.png "First Step")
-![Second Step](/screenshots/Confluence_1000.0.0-d45d49b52de3_step2.png "Second Step")
+![Engage Plugin](/screenshots/Confluence_1000.0.0-d45d49b52de3_step1.png "Engage Plugin")
 ![Confluence After Hiding](/screenshots/Confluence_1000.0.0-d45d49b52de3_after.png "Confluence After Hiding")
 
 
